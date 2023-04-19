@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;    
+}
+body{
+   margin-right: 160px;
+   margin-left: 160px;
+}
+#menu{
+   right: 10px;
+   bottom: 0;
+   position: fixed;
+   background-color: rgb(202, 202, 202);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+#oqvidavida{
+    text-align: center;
+    font-size: 50px;
+ } 
+ ul{
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+ }
+ ul li{
+    display: inline;
+    font-size: 28px;
+    padding: 8px;
+ }
+ol{
+   padding-left: 23.5px;
+   font-size: 20px;
+}
+ol a:link {
+   text-decoration: none;
+   color: black;
+ }
+ ol a:visited{
+   color: black;
+ }
+ ol a:hover {
+   color: red;
+}
